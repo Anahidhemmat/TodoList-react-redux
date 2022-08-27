@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import id from "date-fns/esm/locale/id/index.js";
 
 const getInitialTodo = () => {
   const localTodoList = window.localStorage.getItem("todoList");
