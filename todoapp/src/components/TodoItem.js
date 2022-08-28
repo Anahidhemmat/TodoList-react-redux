@@ -27,7 +27,7 @@ function TodoItem({ todo }) {
             <p
               className={getClasses([
                 styles.todoText,
-                todo.status === "complete" && styles["todoText--complete"],
+                todo.status === "complete" && styles["todoText--completed"],
               ])}
             >
               {todo.title}
