@@ -46,7 +46,6 @@ function TodoModal({ type, modalOpen, setModalOpen }) {
             <div
               className={styles.closeButton}
               onClick={() => setModalOpen(false)}
-              onKeyDown={() => setModalOpen(false)}
               tabIndex={0}
               role="button"
             >
@@ -86,7 +85,6 @@ function TodoModal({ type, modalOpen, setModalOpen }) {
                   type="button"
                   variant="secondary"
                   onClick={() => setModalOpen(false)}
-                  onKeyDown={() => setModalOpen(false)}
                 >
                   Cancel
                 </Button>
