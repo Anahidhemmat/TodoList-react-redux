@@ -74,6 +74,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
           toast.success("Task Updated Successfully");
         } else {
           toast.error("No Changes Made");
+          return;
         }
       }
       setModalOpen(false);
